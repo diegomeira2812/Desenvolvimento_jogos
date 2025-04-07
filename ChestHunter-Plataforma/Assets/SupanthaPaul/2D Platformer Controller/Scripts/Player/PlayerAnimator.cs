@@ -10,8 +10,6 @@ namespace SupanthaPaul
 		private static readonly int Move = Animator.StringToHash("Move");
 		private static readonly int JumpState = Animator.StringToHash("JumpState");
 		private static readonly int IsJumping = Animator.StringToHash("IsJumping");
-		private static readonly int WallGrabbing = Animator.StringToHash("WallGrabbing");
-		private static readonly int IsDashing = Animator.StringToHash("IsDashing");
 
 		private void Start()
 		{
@@ -30,25 +28,7 @@ namespace SupanthaPaul
 			m_anim.SetFloat(JumpState, verticalVelocity);
 
 			// Jump animation
-			if (!m_controller.isGrounded && !m_controller.actuallyWallGrabbing)
-			{
-				m_anim.SetBool(IsJumping, true);
-			}
-			else
-			{
-				m_anim.SetBool(IsJumping, false);
-			}
-
-			if(!m_controller.isGrounded && m_controller.actuallyWallGrabbing)
-			{
-				m_anim.SetBool(WallGrabbing, true);
-			} else
-			{
-				m_anim.SetBool(WallGrabbing, false);
-			}
-
-			// dash animation
-			m_anim.SetBool(IsDashing, m_controller.isDashing);
+			m_anim.SetBool(IsJumping, !m_controller.isGrounded);
 		}
 	}
 }

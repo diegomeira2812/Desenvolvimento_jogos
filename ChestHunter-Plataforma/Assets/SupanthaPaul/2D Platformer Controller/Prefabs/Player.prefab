@@ -272,24 +272,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   extraJumpCount: 1
-  dashSpeed: 25
-  startDashTime: 0.15
-  dashCooldown: 0.2
-  dashEffect: {fileID: 8212761198797595994, guid: aa9df449b161ff64a9fe962a6a3f05fb,
-    type: 3}
   isGrounded: 0
   moveInput: 0
   canMove: 1
-  isDashing: 0
-  actuallyWallGrabbing: 0
   isCurrentlyPlayable: 0
-  grabRightOffset: {x: 0.16, y: 0}
-  grabLeftOffset: {x: -0.16, y: 0}
-  grabCheckRadius: 0.24
-  slideSpeed: 2.5
-  wallJumpForce: {x: 10.5, y: 18}
-  wallClimbForce: {x: 4, y: 14}
-  dialogueBox: {fileID: 0}
+  dialogueBox: {fileID: 4617306010844517338, guid: bcb965a8caad4c34a8bd8ce6fe9de542,
+    type: 3}
 --- !u!114 &1173712999407116002
 MonoBehaviour:
   m_ObjectHideFlags: 0
