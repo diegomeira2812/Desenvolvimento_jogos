@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 503621e3a73c8174f9f821b440da9c90
+guid: a346af53dd496944cbc6c9323f69f1b8
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -298,15 +298,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      8-bits-characters-gaming-assets_0: 4280612768700570119
-      8-bits-characters-gaming-assets_1: 782962824920144083
-      8-bits-characters-gaming-assets_2: 7916803026449457111
-      8-bits-characters-gaming-assets_3: 451593634109818453
-      8-bits-characters-gaming-assets_4: 8335862640196663365
-      8-bits-characters-gaming-assets_5: 2481478394521064564
-      8-bits-characters-gaming-assets_6: 3566923369491754472
-      8-bits-characters-gaming-assets_7: 2335786562858060400
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
