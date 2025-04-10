@@ -18,18 +18,10 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            if (textComponent.text == lines[index])
-            {
-                NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
-        }
+        if (Input.GetKeyDown(KeyCode.V)) // ou qualquer tecla, tipo KeyCode.V
+    {
+        gameObject.SetActive(false);
+    }
     }
 
     void StartDialog()

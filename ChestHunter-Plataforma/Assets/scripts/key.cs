@@ -6,6 +6,7 @@ public class key : MonoBehaviour
 {
     public GameObject gameManager;
     public GameObject dialogueObject;
+    public float dialogueDuration = 4f;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,8 @@ public class key : MonoBehaviour
         {
             Destroy(gameObject);
             gameManager.GetComponent<GameManager>().AddScore();
+
+            dialogueObject.SetActive(true);
             dialogueObject.GetComponent<Dialogue>().NextLine(); // Avança o diálogo
         }
     }

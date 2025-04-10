@@ -5,7 +5,9 @@ using UnityEngine;
 public class FollowDialogue : MonoBehaviour
 {
     public Transform player;
-    public Vector3 offset; // ajuste a posição relativa ao player
+    public Vector3 offset = new Vector3(0f, 2f, 0f);
+
+
 
     void Update()
     {
