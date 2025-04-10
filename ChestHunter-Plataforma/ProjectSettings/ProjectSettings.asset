@@ -825,11 +825,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: b8fa5af0-bacf-4075-88f6-1ab76fcb4d4d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Reko's Nightmare
-  organizationId: 
+  projectName: ChestHunter-Plataforma
+  organizationId: diegomjs
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

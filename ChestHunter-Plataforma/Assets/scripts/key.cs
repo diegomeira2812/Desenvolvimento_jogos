@@ -5,6 +5,7 @@ using UnityEngine;
 public class key : MonoBehaviour
 {
     public GameObject gameManager;
+    public GameObject dialogueObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class key : MonoBehaviour
         {
             Destroy(gameObject);
             gameManager.GetComponent<GameManager>().AddScore();
+            dialogueObject.GetComponent<Dialogue>().NextLine(); // Avança o diálogo
         }
     }
 }

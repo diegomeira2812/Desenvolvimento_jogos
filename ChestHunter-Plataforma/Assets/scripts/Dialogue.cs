@@ -8,7 +8,7 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-    private int index;
+    public int index;
 
     void Start()
     {
@@ -47,7 +47,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void NextLine()
+    public void NextLine()
     {
         if (index < lines.Length - 1)
         {
